@@ -4,17 +4,14 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "biome format --write ."
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.0",
     "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
     "turbo": "^2.1.2"
   },
   "name": "with-vite",
   "packageManager": "bun@1.1.18",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  "workspaces": ["apps/*", "packages/*"]
 }

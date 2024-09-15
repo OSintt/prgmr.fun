@@ -10,7 +10,8 @@
     "lint": "eslint \"src/**/*.ts\""
   },
   "dependencies": {
-    "@repo/ui": "*"
+    "@repo/ui": "*",
+    "monaco-editor": "^0.51.0"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
